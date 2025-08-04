@@ -1,19 +1,18 @@
-# Custom-Chatbox
-This repository contains a chatbot built using LangChain that:
+💬 QA Chatbot using Streamlit, LangChain, and Groq
+Developed an interactive Question-Answering chatbot with a Streamlit web interface, powered by Groq’s LLaMA-3.1-8B-Instant model via LangChain. Implemented a custom system prompt for concise and context-aware responses, with session-based chat history for maintaining conversation context. Integrated StrOutputParser for clean text formatting and Groq API for ultra-fast inference.
 
-1. Extracts data from URLs using LangChain’s URL loaders.
+Key Features:
+
+Real-time Q&A with conversational memory
+
+Customizable assistant role using ChatPromptTemplate
+
+Fast inference with Groq’s LLaMA-3.1-8B-Instant
+
+Clean and structured outputs with StrOutputParser
+
+Simple and interactive UI with Streamlit
+
+Tech Stack: Python, Streamlit, LangChain, Groq API, LLaMA-3.1-8B-Instant
 
 
-2. Creates embeddings and stores them in a vector database.
-
-
-3. Serves a RESTful API using Flask to handle conversations.
-
-
-
-Features
-
-✅ Extracts text from web pages using LangChain’s UnstructuredURLLoader.
-✅ Converts extracted text into embeddings for efficient retrieval.
-✅ Stores embeddings in a vector database (FAISS or Chroma).
-✅ Implements a Flask RESTful API for querying responses.
